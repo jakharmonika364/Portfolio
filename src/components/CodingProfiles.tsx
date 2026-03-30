@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { SiLeetcode, SiGeeksforgeeks, SiHackerrank, SiCodechef } from 'react-icons/si';
+import { SiLeetcode } from 'react-icons/si';
 
 interface CodingPlatform {
     id: string;
@@ -26,7 +26,12 @@ const platforms: CodingPlatform[] = [
         url: 'https://codechef.com/users/yourusername',
         color: '#b07540',
         darkBg: false,
-        icon: <SiCodechef color="#6b4f2f" />,
+        icon: (
+            <svg viewBox="0 0 24 24" fill="#6b4f2f" style={{ display: 'block' }}>
+                <path d="M12.008 20.407c-4.49 0-7.397-2.67-7.397-6.84 0-2.31 1.258-4.545 3.344-5.918 1.144-.757 2.478-1.127 3.868-1.127a7.653 7.653 0 0 1 2.217.3c1.77.534 3.42 1.838 4.606 3.657l1.32-1.28c-1.396-2.094-3.52-3.665-5.926-4.32-2.912-.8-6.103-.024-8.5 2.15-2.015 1.83-3.13 4.35-3.13 6.954 0 4.908 3.514 8.243 8.76 8.243 4.364 0 7.822-2.677 9.074-6.848h-1.636c-1.168 3.193-4.103 5.03-7.6 5.03z"/>
+                <path d="M12.235 9.052l-.93-5.228a1.277 1.277 0 0 0-1.294-1.077h-1.89v1.653h1.365l.775 4.357c.725-.66 1.487-1.173 2.126-1.52.884-.486 1.767-.798 2.65-.908v1.62c-.675.05-1.37.23-2.054.545-.58.26-1.135.63-1.64 1.12l.142.798c1.32-.4 2.822-.26 4.36.23v1.637c-1.884-.576-3.837-.8-5.325.32l1.602 8.94.348-.12.355.12 1.554-8.736a5.57 5.57 0 0 1-1.314-1.55l.85-4.733c.8-.076 1.627.086 2.433.454v-1.6c-.927-.47-1.893-.724-2.85-.702l-.634 3.535a4.7 4.7 0 0 0-1.258.983z"/>
+            </svg>
+        ),
     },
     {
         id: 'geeksforgeeks',
@@ -34,7 +39,11 @@ const platforms: CodingPlatform[] = [
         url: 'https://auth.geeksforgeeks.org/user/yourusername',
         color: '#2f8d46',
         darkBg: false,
-        icon: <SiGeeksforgeeks color="#2f8d46" />,
+        icon: (
+            <svg viewBox="0 0 24 24" fill="#2f8d46" style={{ display: 'block' }}>
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.3 14h-6.6a2.7 2.7 0 0 1-2.7-2.7v-2.6h9.3v5.3z"/>
+            </svg>
+        ),
     },
     // {
     //     id: 'interviewbit',

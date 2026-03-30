@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { personalInfo } from '../data/portfolioData';
 
 interface Line {
     type: 'command' | 'output' | 'prompt';

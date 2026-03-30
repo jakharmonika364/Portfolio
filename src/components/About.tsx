@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { aboutMe } from '../data/portfolioData';
 
-const fadeUp = {
+const fadeUp: any = {
     hidden: { opacity: 0, y: 40 },
     visible: (i: number) => ({
         opacity: 1, y: 0,
