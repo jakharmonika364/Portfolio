@@ -36,34 +36,34 @@ const platforms: CodingPlatform[] = [
         darkBg: false,
         icon: <SiGeeksforgeeks color="#2f8d46" />,
     },
-    {
-        id: 'interviewbit',
-        displayName: 'INTERVIEWBIT',
-        url: 'https://interviewbit.com/profile/yourusername',
-        color: '#1374ef',
-        darkBg: false,
-        icon: (
-            <svg viewBox="0 0 40 40" fill="none" style={{ display: 'block' }}>
-                <circle cx="12" cy="12" r="3.5" fill="#1374ef" />
-                <circle cx="20" cy="12" r="3.5" fill="#1374ef" opacity="0.7" />
-                <circle cx="28" cy="12" r="3.5" fill="#1374ef" opacity="0.4" />
-                <circle cx="12" cy="20" r="3.5" fill="#1374ef" opacity="0.7" />
-                <circle cx="20" cy="20" r="3.5" fill="#1374ef" />
-                <circle cx="28" cy="20" r="3.5" fill="#1374ef" opacity="0.7" />
-                <circle cx="12" cy="28" r="3.5" fill="#1374ef" opacity="0.4" />
-                <circle cx="20" cy="28" r="3.5" fill="#1374ef" opacity="0.7" />
-                <circle cx="28" cy="28" r="3.5" fill="#1374ef" />
-            </svg>
-        ),
-    },
-    {
-        id: 'hackerrank',
-        displayName: 'HACKERRANK',
-        url: 'https://hackerrank.com/yourusername',
-        color: '#00ea64',
-        darkBg: true,
-        icon: <SiHackerrank color="#00ea64" />,
-    },
+    // {
+    //     id: 'interviewbit',
+    //     displayName: 'INTERVIEWBIT',
+    //     url: 'https://interviewbit.com/profile/yourusername',
+    //     color: '#1374ef',
+    //     darkBg: false,
+    //     icon: (
+    //         <svg viewBox="0 0 40 40" fill="none" style={{ display: 'block' }}>
+    //             <circle cx="12" cy="12" r="3.5" fill="#1374ef" />
+    //             <circle cx="20" cy="12" r="3.5" fill="#1374ef" opacity="0.7" />
+    //             <circle cx="28" cy="12" r="3.5" fill="#1374ef" opacity="0.4" />
+    //             <circle cx="12" cy="20" r="3.5" fill="#1374ef" opacity="0.7" />
+    //             <circle cx="20" cy="20" r="3.5" fill="#1374ef" />
+    //             <circle cx="28" cy="20" r="3.5" fill="#1374ef" opacity="0.7" />
+    //             <circle cx="12" cy="28" r="3.5" fill="#1374ef" opacity="0.4" />
+    //             <circle cx="20" cy="28" r="3.5" fill="#1374ef" opacity="0.7" />
+    //             <circle cx="28" cy="28" r="3.5" fill="#1374ef" />
+    //         </svg>
+    //     ),
+    // },
+    // {
+    //     id: 'hackerrank',
+    //     displayName: 'HACKERRANK',
+    //     url: 'https://hackerrank.com/yourusername',
+    //     color: '#00ea64',
+    //     darkBg: true,
+    //     icon: <SiHackerrank color="#00ea64" />,
+    // },
     {
         id: 'codolio',
         displayName: 'CODOLIO',

@@ -8,9 +8,9 @@ export const personalInfo = {
     email: "jakharmonika364@gmail.com",
     tagline: "Frontend Developer • Open Source Contributor • Full-Stack",
     github: "https://github.com/jakharmonika364",
-    linkedin: "https://linkedin.com/in/monikajakhar",
-    instagram: "https://instagram.com/monikajakhar",
-    twitter: "https://twitter.com/monikajakhar",
+    linkedin: "https://www.linkedin.com/in/monika-jakhar-186a04361/",
+    instagram: "https://www.instagram.com/_monika_jakhar05/",
+    twitter: "",
     signature: "Monika Jakhar",
 };
 
@@ -23,7 +23,7 @@ export const stats = [
 
 export const aboutMe = {
     paragraphs: [
-        "I am a Frontend Developer and an aspiring Full-Stack engineer with a deep passion for Open Source contributions. My journey is driven by a commitment to building software that is clean, scalable, and maintainable.",
+        "I am a Full-Stack Developer with a deep passion for Open Source contributions. My journey is driven by a commitment to building software that is clean, scalable, and maintainable.",
         "I thrive on solving complex logical problems and building robust systems. Currently based in India 🇮🇳, I am actively contributing to large-scale CNCF projects like Kyverno and Fluid, constantly pushing the boundaries of my technical expertise.",
     ],
     highlights: [
@@ -42,12 +42,12 @@ export const skills = [
     {
         category: "LANGUAGES",
         color: "cyan",
-        items: ["JavaScript", "TypeScript", "Python", "Go", "Rust", "Java", "HTML5", "CSS3"],
+        items: ["JavaScript", "TypeScript", "Python", "Go", "HTML5", "CSS3"],
     },
     {
         category: "FRONTEND",
         color: "purple",
-        items: ["React", "Next.js", "Tailwind CSS", "Bootstrap", "Figma"],
+        items: ["React", "Tailwind CSS", "Bootstrap", "Figma"],
     },
     {
         category: "BACKEND & DEVOPS",

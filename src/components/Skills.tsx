@@ -45,9 +45,6 @@ export default function Skills() {
                             ARSENAL
                         </span>
                     </h2>
-                    <p className="text-slate-400 mt-3 text-sm max-w-lg">
-                        Mastering the intersection of sophisticated software and tangible hardware.
-                    </p>
                 </motion.div>
 
                 {/* Skill cards — Centered with grid-cols-3 */}
