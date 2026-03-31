@@ -98,40 +98,36 @@ export default function Hero() {
                     transition={{ duration: 0.8, ease: 'easeOut' }}
                     className="relative w-full max-w-[320px] flex flex-col items-center"
                 >
-                    {/* Ambient glow */}
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[280px] h-[280px] bg-cyan-500/10 rounded-full blur-[60px] pointer-events-none" />
-
                     {/* Image container */}
-                    <div className="relative w-full h-[340px] flex items-end justify-center overflow-hidden">
+                    <div className="relative group w-full h-[380px] sm:h-[420px] flex items-end justify-center">
+                        {/* Ambient glow */}
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[260px] h-[260px] bg-cyan-500/10 rounded-full blur-[60px] pointer-events-none transition-all duration-700 ease-out group-hover:bg-cyan-400/30 group-hover:w-[320px] group-hover:h-[320px] group-hover:blur-[80px]" />
                         <img
-                            src="/monika.png"
+                            src="/monika6.png"
                             alt="Monika Jakhar"
-                            className="w-full h-full object-contain"
+                            className="w-auto h-full max-w-[95%] object-contain z-10 transition-transform duration-500 ease-out group-hover:scale-[1.03]"
                             style={{
                                 objectPosition: 'center bottom',
                                 filter: 'drop-shadow(0 12px 20px rgba(0,0,0,0.6))',
                             }}
                         />
+                        {/* Hover Signature Mobile */}
+                        <div className="absolute bottom-10 left-[15%] sm:left-[22%] z-20 opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out pointer-events-none flex flex-col items-start -rotate-12">
+                             <span className="text-white text-5xl pr-4 tracking-wide" style={{ fontFamily: "cursive, 'Brush Script MT', 'Dancing Script', serif", textShadow: '0 4px 12px rgba(0,0,0,0.8)' }}>
+                                 {personalInfo.name.split(' ')[0]}
+                             </span>
+                             <svg width="150" height="20" viewBox="0 0 150 20" className="-mt-1 pl-2" style={{ filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.5))' }}>
+                                 <path d="M5,10 Q50,-5 140,15" stroke="white" strokeWidth="2.5" fill="none" strokeLinecap="round" />
+                                 <path d="M10,18 Q60,2 135,10" stroke="white" strokeWidth="1" fill="none" strokeLinecap="round" opacity="0.8" />
+                             </svg>
+                        </div>
                     </div>
 
                     {/* Neon floor line */}
                     <div className="w-[90%] h-[3px] bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent blur-[4px]" />
                     <div className="w-[70%] h-px bg-gradient-to-r from-transparent via-cyan-400 to-transparent -mt-[2px]" />
 
-                    {/* Signature */}
-                    <motion.div
-                        initial={{ opacity: 0, y: 10 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ delay: 1, duration: 0.8 }}
-                        className="mt-2 text-white/90 text-4xl italic tracking-wide pointer-events-none"
-                        style={{
-                            fontFamily: "cursive, 'Brush Script MT', 'Dancing Script', serif",
-                            textShadow: '0 4px 12px rgba(0,0,0,0.5)',
-                            transform: 'rotate(-5deg)',
-                        }}
-                    >
-                        {personalInfo.signature}
-                    </motion.div>
+
                 </motion.div>
 
                 {/* Text content */}
@@ -203,37 +199,36 @@ export default function Hero() {
                         className="relative flex flex-col items-center"
                     >
                         <div className="relative group flex flex-col items-center -ml-12 xl:-ml-24 w-full">
-                            <div className="relative w-[130%] max-w-[700px] h-[650px] flex items-end justify-center">
-                                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none" />
-                                <div className="absolute inset-x-0 top-0 bottom-0 overflow-hidden flex items-end justify-center z-10">
+                            <div className="relative w-[120%] max-w-[650px] h-[600px] flex items-end justify-center">
+                                {/* Ambient glow */}
+                                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/10 rounded-full blur-[100px] pointer-events-none transition-all duration-700 ease-out group-hover:bg-cyan-400/30 group-hover:w-[600px] group-hover:h-[600px] group-hover:blur-[120px]" />
+                                <div className="absolute inset-x-0 top-0 bottom-0 flex items-end justify-center z-10">
                                     <img
-                                        src="/monika.png"
+                                        src="/monika6.png"
                                         alt="Monika Jakhar"
-                                        className="w-[120%] h-[120%] max-w-none ml-[-10%] object-contain transition-transform duration-500 ease-out group-hover:scale-105"
+                                        className="w-auto h-[110%] max-w-none ml-[-5%] object-contain transition-transform duration-500 ease-out group-hover:scale-105"
                                         style={{
                                             objectPosition: 'center bottom',
                                             filter: 'drop-shadow(0 15px 25px rgba(0,0,0,0.6))',
                                             transformOrigin: 'bottom center',
                                         }}
                                     />
+                                    {/* Hover Signature Desktop */}
+                                    <div className="absolute bottom-16 left-[25%] z-20 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out pointer-events-none flex flex-col items-start -rotate-12">
+                                         <span className="text-white text-7xl pr-4" style={{ fontFamily: "cursive, 'Brush Script MT', 'Dancing Script', serif", textShadow: '0 4px 12px rgba(0,0,0,0.8)' }}>
+                                             {personalInfo.name.split(' ')[0]}
+                                         </span>
+                                         <svg width="220" height="30" viewBox="0 0 220 30" className="-mt-1" style={{ filter: 'drop-shadow(0 4px 6px rgba(0,0,0,0.6))' }}>
+                                             <path d="M10,25 Q100,5 210,10" stroke="white" strokeWidth="4" fill="none" strokeLinecap="round" />
+                                             <path d="M10,25 Q100,5 210,10" stroke="cyan" strokeWidth="2" fill="none" strokeLinecap="round" opacity="0.5" />
+                                         </svg>
+                                    </div>
                                 </div>
                                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[120%] h-[4px] bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent blur-[5px] z-20 pointer-events-none" />
                                 <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[2px] bg-gradient-to-r from-transparent via-cyan-400 to-transparent z-30 pointer-events-none" />
                             </div>
 
-                            <motion.div
-                                initial={{ opacity: 0, y: 10 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 1, duration: 0.8 }}
-                                className="-mt-12 self-end mr-24 relative z-40 text-white/95 text-7xl italic tracking-wide pointer-events-none"
-                                style={{
-                                    fontFamily: "cursive, 'Brush Script MT', 'Dancing Script', serif",
-                                    textShadow: '0 4px 12px rgba(0,0,0,0.5)',
-                                    transform: 'rotate(-5deg)',
-                                }}
-                            >
-                                {personalInfo.signature}
-                            </motion.div>
+
                         </div>
                     </motion.div>
 
