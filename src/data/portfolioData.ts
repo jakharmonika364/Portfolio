@@ -93,31 +93,31 @@ export const projects = [
 
 export const codingProfiles = [
     {
-        platform: "GitHub",
-        username: "jakharmonika364",
-        url: "https://github.com/jakharmonika364",
-        stats: "80+ Contributions",
-        color: "#ffffff",
-    },
-    {
         platform: "LeetCode",
-        username: "yourusername",
-        url: "https://leetcode.com/yourusername",
+        username: "monika_jakhar04",
+        url: "https://leetcode.com/u/monika_jakhar04/",
         stats: "100+ Problems Solved",
         color: "#ffa116",
     },
     {
+        platform: "CodeChef",
+        username: "monikap25",
+        url: "https://www.codechef.com/users/monikap25",
+        stats: "Active Programmer",
+        color: "#b07540",
+    },
+    {
         platform: "GeeksForGeeks",
-        username: "yourusername",
-        url: "https://auth.geeksforgeeks.org/user/yourusername",
+        username: "jakharmoa9a5",
+        url: "https://www.geeksforgeeks.org/profile/jakharmoa9a5",
         stats: "200+ Score",
         color: "#2f8d46",
     },
     {
-        platform: "HackerRank",
-        username: "yourusername",
-        url: "https://hackerrank.com/yourusername",
-        stats: "5⭐ Problem Solving",
-        color: "#00ea64",
+        platform: "Codolio",
+        username: "monika5",
+        url: "https://codolio.com/profile/monika5",
+        stats: "Active Programmer",
+        color: "#f97316",
     },
 ];

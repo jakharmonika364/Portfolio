@@ -15,7 +15,7 @@ const platforms: CodingPlatform[] = [
     {
         id: 'leetcode',
         displayName: 'LEETCODE',
-        url: 'https://leetcode.com/yourusername',
+        url: 'https://leetcode.com/u/monika_jakhar04/',
         color: '#ffa116',
         darkBg: true,
         icon: <SiLeetcode color="#ffa116" />,
@@ -23,7 +23,7 @@ const platforms: CodingPlatform[] = [
     {
         id: 'codechef',
         displayName: 'CODECHEF',
-        url: 'https://codechef.com/users/yourusername',
+        url: 'https://www.codechef.com/users/monikap25',
         color: '#b07540',
         darkBg: false,
         icon: (
@@ -36,7 +36,7 @@ const platforms: CodingPlatform[] = [
     {
         id: 'geeksforgeeks',
         displayName: 'GEEKSFORGEEKS',
-        url: 'https://auth.geeksforgeeks.org/user/yourusername',
+        url: 'https://www.geeksforgeeks.org/profile/jakharmoa9a5',
         color: '#2f8d46',
         darkBg: false,
         icon: (
@@ -76,7 +76,7 @@ const platforms: CodingPlatform[] = [
     {
         id: 'codolio',
         displayName: 'CODOLIO',
-        url: 'https://codolio.com/profile/yourusername',
+        url: 'https://codolio.com/profile/monika5',
         color: '#f97316',
         darkBg: true,
         icon: (
