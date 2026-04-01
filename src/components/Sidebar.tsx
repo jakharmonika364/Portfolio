@@ -4,7 +4,7 @@ import {
     FiHome, FiBriefcase, FiAward, FiCode, FiFolder, FiUser
 } from 'react-icons/fi';
 import {
-    FaGithub, FaLinkedin, FaInstagram, FaTwitter
+    FaGithub, FaLinkedin, FaInstagram
 } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 import { personalInfo } from '../data/portfolioData';
@@ -22,7 +22,6 @@ const socialLinks = [
     { icon: FaGithub, url: personalInfo.github, label: 'GitHub' },
     { icon: FaLinkedin, url: personalInfo.linkedin, label: 'LinkedIn' },
     { icon: FaInstagram, url: personalInfo.instagram, label: 'Instagram' },
-    { icon: FaTwitter, url: personalInfo.twitter, label: 'Twitter' },
     { icon: MdEmail, url: `mailto:${personalInfo.email}`, label: 'Email' },
 ];
 

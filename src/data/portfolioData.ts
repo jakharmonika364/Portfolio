@@ -10,7 +10,6 @@ export const personalInfo = {
     github: "https://github.com/jakharmonika364",
     linkedin: "https://www.linkedin.com/in/monika-jakhar-186a04361/",
     instagram: "https://www.instagram.com/_monika_jakhar05/",
-    twitter: "",
     whatsapp: "+91 9050954054", // Monika's WhatsApp
     signature: "Monika Jakhar",
 };
