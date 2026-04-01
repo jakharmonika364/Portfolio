@@ -30,6 +30,7 @@ const flagshipProjects: Project[] = [
         description:
             'A high-performance web-based audio player with real-time visualizations and advanced control mechanics using the Web Audio API.',
         isLive: true,
+        liveUrl: 'https://groove-player.netlify.app/',
         githubUrl: 'https://github.com/jakharmonika364/Web-audio-player',
         tags: ['JavaScript', 'Web Audio API', 'Canvas', 'HTML5'],
         banner: 'gradient',
@@ -45,6 +46,7 @@ const flagshipProjects: Project[] = [
         description:
             'Track your food consumption and carbon footprint with smart analytics and sustainability recommendations.',
         isLive: true,
+        liveUrl: 'https://6917bdee950026f7bc8f2bbc--scintillating-bubblegum-952195.netlify.app/',
         githubUrl: 'https://github.com/jakharmonika364/Sustainable-Food-Tracker',
         tags: ['React', 'Node.js', 'MongoDB', 'Chart.js'],
         banner: 'screenshot',
@@ -60,7 +62,8 @@ const flagshipProjects: Project[] = [
         description:
             'Automated attendance tracking system for educational institutions with real-time monitoring and analytics.',
         isLive: true,
-        liveUrl: '#',
+        liveUrl: 'https://student-attendance-system-uz1n.onrender.com/',
+        githubUrl: 'https://github.com/jakharmonika364/student-attendance-system',
         tags: ['Java', 'MySQL', 'Spring Boot', 'Thymeleaf'],
         banner: 'screenshot',
         bannerConfig: {
@@ -75,8 +78,7 @@ const flagshipProjects: Project[] = [
         subtitle: 'Music Player',
         description:
             'A modern, feature-rich music player with advanced audio controls, playlist management, and beautiful UI design.',
-        isLive: true,
-        liveUrl: '#',
+        isLive: false,
         githubUrl: 'https://github.com/jakharmonika364/soniq-music-player',
         tags: ['React', 'Web Audio API', 'IndexedDB', 'CSS'],
         banner: 'icon',
